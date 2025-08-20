@@ -1,4 +1,4 @@
-# Lecture AI Tool
+# DocInsight
 
 ## Automated PDF Summarizer & Quiz Generator
 
