@@ -5,7 +5,7 @@ import tempfile
 
 processor = LectureProcessor()
 
-st.title("📚 Lecture Summarizer & Quiz Generator")
+st.title("📚 DocInsight")
 uploaded_file = st.file_uploader("Upload lecture slides (PDF)", type="pdf")
 
 if uploaded_file:
@@ -27,4 +27,5 @@ if uploaded_file:
             
         with col2:
             st.subheader("FAQs")
+
             st.write(processor.generate_qa_pairs(first_page))
